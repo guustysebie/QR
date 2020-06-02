@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/guust/Code/personal/QR/QR.csproj": {}
+  },
+  "projects": {
+    "/home/guust/Code/personal/QR/QR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/guust/Code/personal/QR/QR.csproj",
+        "projectName": "QR",
+        "projectPath": "/home/guust/Code/personal/QR/QR.csproj",
+        "packagesPath": "/home/guust/.nuget/packages/",
+        "outputPath": "/home/guust/Code/personal/QR/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/guust/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
